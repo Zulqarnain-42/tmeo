@@ -1,6 +1,7 @@
 @extends('layout.main')
 @section('content')
     <main>
+
         <section id="home" class="home-banner gray-bg"
             style="background-image: url(images/resize-immersive2.jpeg);filter: grayscale(100%);">
             <div class="sec-round">
@@ -37,10 +38,10 @@
                         <div class="about-left">
                             <h2>About Us</h2>
                             <h3>Tech Media Exhibition Organization</h3>
-                            <p>Tech Media Exhibition Organization is one of the most dedicated service providers of
-                                Broadcast equipment, Film, photography, audio, and System Integration. We're a company that
+                            <p>Tech Media Exhibition Organization is one of the most dedicated service providers of Events, Exhibitions,
+                                Broadcast equipment,Event lighting,Stage, Film, photography, audio, and System Integration. We're a company that
                                 lives for supplying you with the latest technology solutions in the media industry. </p>
-                            <p>Our valued clients include but are not limited to TV stations, post-production houses, rental
+                            <p>Our valued clients include but are not limited to Events, TV stations, post-production houses, rental
                                 and production houses, advertising firms, government institutions, educational institutions,
                                 and religious and worship organizations. Check out our <a class="m-btn-link theme-after"
                                     href="#portfolio">Portfolio</a></p>
@@ -115,13 +116,38 @@
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="feature-box-02">
-                            <i class="icon theme-bg ti-ruler-pencil"></i>
-                            <div class="feature-content">
+                            <img src="{{URL::asset('images/build your broadcast facility 2-240x240h.jpg')}}" style="border-radius: 10px">
+                            <div class="feature-content mt-3">
                                 <h5>Build Your Broadcast Facility</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua.</p>
                                 <div class="read-more">
-                                    <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                                    <a href="#" type="button" data-toggle="modal" data-target=".buildbroadcastfacilitymodal" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                    $('.buildbroadcastfacilitymodal').on('shown.bs.modal', function () {
+                        $('.buildbroadcastfacilitymodal').show()
+                    })
+                    </script>
+
+                    <div class="modal fade buildbroadcastfacilitymodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="rfmodaltitle">Broadcast Facility</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -129,13 +155,37 @@
 
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="feature-box-02">
-                            <i class="icon theme-bg ti-image"></i>
-                            <div class="feature-content">
+                            <img src="{{URL::asset('images/Immersive 01-240x240h.jpeg')}}" style="border-radius: 10px">
+                            <div class="feature-content mt-3">
                                 <h5>Immersive Display and Technology Solutions</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <p>We provides innovative display products and services that enable customers to achieve their training, visualization and presentation objectives.</p>
                                 <div class="read-more">
-                                    <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                                    <a href="#" type="button" data-toggle="modal" data-target=".immersivemodal" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                    $('.immersivemodal').on('shown.bs.modal', function () {
+                        $('.immersivemodal').show()
+                    })
+                    </script>
+
+                    <div class="modal fade immersivemodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="rfmodaltitle">Immersive Display And Technology</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -143,13 +193,38 @@
 
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="feature-box-02">
-                            <i class="icon theme-bg ti-layout"></i>
-                            <div class="feature-content">
+                            <img src="{{URL::asset('images/Satellite-240x240.jpeg')}}" style="border-radius: 10px;">
+                            <div class="feature-content mt-3">
                                 <h5>RF Transmission</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua.</p>
                                 <div class="read-more">
-                                    <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                                    <a href="#" type="button" data-toggle="modal" data-target=".rftransmissionmodal" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                    $('.rftransmissionmodal').on('shown.bs.modal', function () {
+                        $('.rftransmissionmodal').show()
+                    })
+                    </script>
+
+                    <div class="modal fade rftransmissionmodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="rfmodaltitle">Rf Transmission</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -157,13 +232,38 @@
 
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="feature-box-02">
-                            <i class="icon theme-bg ti-camera"></i>
-                            <div class="feature-content">
+                            <img src="{{URL::asset('images/Build your OB Van-240x240h.jpg')}}" style="border-radius: 10px">
+                            <div class="feature-content mt-3">
                                 <h5>Build Your OB Van</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua.</p>
                                 <div class="read-more">
-                                    <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                                    <a href="#" type="button" data-toggle="modal" data-target=".buildobvanmodal" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                    $('.buildobvanmodal').on('shown.bs.modal', function () {
+                        $('.buildobvanmodal').show()
+                    })
+                    </script>
+
+                    <div class="modal fade buildobvanmodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="rfmodaltitle">Build Your OB Van</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -171,13 +271,38 @@
 
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="feature-box-02">
-                            <i class="icon theme-bg ti-brush-alt"></i>
-                            <div class="feature-content">
+                            <img src="{{URL::asset('images/System integration-240x240h.jpg')}}" style="border-radius: 10px;">
+                            <div class="feature-content mt-3">
                                 <h5>System Integration</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua.</p>
                                 <div class="read-more">
-                                    <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                                    <a href="#" type="button" data-toggle="modal" data-target=".systemintegrationmodal" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                    $('.systemintegrationmodal').on('shown.bs.modal', function () {
+                        $('.systemintegrationmodal').show()
+                    })
+                    </script>
+
+                    <div class="modal fade systemintegrationmodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="rfmodaltitle">System Integration</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -185,43 +310,119 @@
 
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="feature-box-02">
-                            <i class="icon theme-bg ti-world"></i>
-                            <div class="feature-content">
+                            <img src="{{URL::asset('images/smartphone-and-hologram-projector-3d-mockup-vector-27056928-240x240h.jpeg')}}" style="border-radius: 10px">
+                            <div class="feature-content mt-3">
                                 <h5>Projection and Holograms</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Three-dimensional Holographic Projectors that create astonishing Holograms. Real-life hologram technology is not something you would only see in the movies anymore.</p>
                                 <div class="read-more">
-                                    <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                                    <a href="#" type="button" data-toggle="modal" data-target=".projectionmodal" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <script>
+                    $('.projectionmodal').on('shown.bs.modal', function () {
+                        $('.projectionmodal').show()
+                    })
+                    </script>
+
+                    <div class="modal fade projectionmodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="rfmodaltitle">Projection & Hologram</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="feature-box-02">
-                            <i class="icon theme-bg ti-world"></i>
-                            <div class="feature-content">
+                            <img src="{{URL::asset('images/Screen Shot 2022-03-05 at 7.23.55 pm-240x240h.png')}}" style="border-radius: 10px;">
+                            <div class="feature-content mt-3">
                                 <h5>Exhibitions & Museams</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua.</p>
                                 <div class="read-more">
-                                    <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                                    <a href="#" type="button" data-toggle="modal" data-target=".museammodal" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <script>
+                    $('.museammodal').on('shown.bs.modal', function () {
+                        $('.museammodal').show()
+                    })
+                    </script>
+
+                    <div class="modal fade museammodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="rfmodaltitle">Exhibitions & Museams</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="feature-box-02">
-                            <i class="icon theme-bg ti-world"></i>
-                            <div class="feature-content">
+                            <img src="{{URL::asset('images/FABT Event-240x240h.jpg')}}" style="border-radius: 10px">
+                            <div class="feature-content mt-3">
                                 <h5>Events & Projects</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <p>We provide services of set-up studio design and decoration, including installations and commissioning of large studio with live broadcast and professional team training.</p>
                                 <div class="read-more">
-                                    <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                                    <a href="#" type="button" data-toggle="modal" data-target=".eventsmodal" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <script>
+                    $('.eventsmodal').on('shown.bs.modal', function () {
+                        $('.eventsmodal').show()
+                    })
+                    </script>
+
+                    <div class="modal fade eventsmodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="rfmodaltitle">Events & Projects</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -523,7 +724,7 @@
 
                                 <div class="contact-info">
                                     <i class="icon theme-bg ti-email"></i>
-                                    <p>info@tmeo.pro<br />support@example.com</p>
+                                    <p>info@tmeo.pro</p>
                                 </div>
 
                                 <div class="contact-info">
