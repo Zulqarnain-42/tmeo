@@ -59,7 +59,7 @@
                 <li><a href="#"><i class="fab fa-codepen"></i></a></li>
                 <li><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
             </ul>
-            <p class="copyright">© 2018 Ryan. All Rights Reserved</p>
+            <p class="copyright">© {{ now()->year }} Tech Media Exhibition Organization. All Rights Reserved</p>
         </div>
     </footer>
 

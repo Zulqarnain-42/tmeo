@@ -106,9 +106,9 @@
                     <div class="col-12 col-md-10 col-lg-7">
                         <div class="section-title text-center">
                             <h2 class="font-alt">Our Services</h2>
-                            <p>I design and develop services for customers of all sizes, specializing in creating
-                                stylish, modern websites, web services and online stores. My passion is to design
-                                digital user experiences through the bold interface.</p>
+                            <p>We provide services for customers of all sizes, specializing in creating stylish,
+                                modern events, museums, and stages. Our passion is to provide the best user experiences
+                                through the bold interface.</p>
                         </div>
                     </div>
                 </div>
@@ -119,35 +119,10 @@
                             <img src="{{URL::asset('images/build your broadcast facility 2-240x240h.jpg')}}" style="border-radius: 10px">
                             <div class="feature-content mt-3">
                                 <h5>Build Your Broadcast Facility</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Our Team have the knowledge of broadcast production workflows that allow the layout and
+                                    structure of the facility be part of the production process.</p>
                                 <div class="read-more">
                                     <a href="#" type="button" data-toggle="modal" data-target=".buildbroadcastfacilitymodal" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <script>
-                    $('.buildbroadcastfacilitymodal').on('shown.bs.modal', function () {
-                        $('.buildbroadcastfacilitymodal').show()
-                    })
-                    </script>
-
-                    <div class="modal fade buildbroadcastfacilitymodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="rfmodaltitle">Broadcast Facility</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -161,31 +136,6 @@
                                 <p>We provides innovative display products and services that enable customers to achieve their training, visualization and presentation objectives.</p>
                                 <div class="read-more">
                                     <a href="#" type="button" data-toggle="modal" data-target=".immersivemodal" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <script>
-                    $('.immersivemodal').on('shown.bs.modal', function () {
-                        $('.immersivemodal').show()
-                    })
-                    </script>
-
-                    <div class="modal fade immersivemodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="rfmodaltitle">Immersive Display And Technology</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -205,65 +155,15 @@
                         </div>
                     </div>
 
-                    <script>
-                    $('.rftransmissionmodal').on('shown.bs.modal', function () {
-                        $('.rftransmissionmodal').show()
-                    })
-                    </script>
-
-                    <div class="modal fade rftransmissionmodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="rfmodaltitle">Rf Transmission</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="feature-box-02">
                             <img src="{{URL::asset('images/Build your OB Van-240x240h.jpg')}}" style="border-radius: 10px">
                             <div class="feature-content mt-3">
                                 <h5>Build Your OB Van</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <p>OB van is a small mobile production control room to allow filming of events and video production at
+                                    locations outside a regular television studio.</p>
                                 <div class="read-more">
                                     <a href="#" type="button" data-toggle="modal" data-target=".buildobvanmodal" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <script>
-                    $('.buildobvanmodal').on('shown.bs.modal', function () {
-                        $('.buildobvanmodal').show()
-                    })
-                    </script>
-
-                    <div class="modal fade buildobvanmodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="rfmodaltitle">Build Your OB Van</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -274,35 +174,9 @@
                             <img src="{{URL::asset('images/System integration-240x240h.jpg')}}" style="border-radius: 10px;">
                             <div class="feature-content mt-3">
                                 <h5>System Integration</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Tech media exhibition organization have the experience of joining software and hardware modules into one cohesive infrastructure, enabling all pieces to work as a whole.</p>
                                 <div class="read-more">
                                     <a href="#" type="button" data-toggle="modal" data-target=".systemintegrationmodal" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <script>
-                    $('.systemintegrationmodal').on('shown.bs.modal', function () {
-                        $('.systemintegrationmodal').show()
-                    })
-                    </script>
-
-                    <div class="modal fade systemintegrationmodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="rfmodaltitle">System Integration</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -321,65 +195,14 @@
                         </div>
                     </div>
 
-                    <script>
-                    $('.projectionmodal').on('shown.bs.modal', function () {
-                        $('.projectionmodal').show()
-                    })
-                    </script>
-
-                    <div class="modal fade projectionmodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="rfmodaltitle">Projection & Hologram</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="feature-box-02">
                             <img src="{{URL::asset('images/Screen Shot 2022-03-05 at 7.23.55 pm-240x240h.png')}}" style="border-radius: 10px;">
                             <div class="feature-content mt-3">
                                 <h5>Exhibitions & Museams</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Specialists in Events & organization plus production and postproduction in various High formats (2K, 4K and beyond).</p>
                                 <div class="read-more">
                                     <a href="#" type="button" data-toggle="modal" data-target=".museammodal" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <script>
-                    $('.museammodal').on('shown.bs.modal', function () {
-                        $('.museammodal').show()
-                    })
-                    </script>
-
-                    <div class="modal fade museammodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="rfmodaltitle">Exhibitions & Museams</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -397,32 +220,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <script>
-                    $('.eventsmodal').on('shown.bs.modal', function () {
-                        $('.eventsmodal').show()
-                    })
-                    </script>
-
-                    <div class="modal fade eventsmodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="rfmodaltitle">Events & Projects</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dissmiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </section>
@@ -463,12 +260,12 @@
                                         <div class="action-btn">
                                             <a href="http://www.youtube.com/watch?v=0O2aH4XLbto"
                                                 class="popup-video theme-color"><i class="fa fa-play"></i></a>
-                                            <a href="{{ route('single') }}" class="lightbox-gallery theme-color"
+                                            <a class="lightbox-gallery theme-color"
                                                 href="{{ URL::asset('images/exhibition1.jpeg') }}"
                                                 title="Lightbox gallery image title...">
                                                 <i class="fas fa-expand"></i>
                                             </a>
-                                            <a href="#" class="theme-color">
+                                            <a href="{{ route('single') }}" class="theme-color">
                                                 <i class="fa fa-link"></i>
                                             </a>
                                         </div>
@@ -493,12 +290,12 @@
                                         <div class="action-btn">
                                             <a href="http://www.youtube.com/watch?v=0O2aH4XLbto"
                                                 class="popup-video theme-color"><i class="fa fa-play"></i></a>
-                                            <a href="{{ route('single') }}" class="lightbox-gallery theme-color"
+                                            <a class="lightbox-gallery theme-color"
                                                 href="{{ URL::asset('images/exhibition2.jpeg') }}"
                                                 title="Lightbox gallery image title...">
                                                 <i class="fas fa-expand"></i>
                                             </a>
-                                            <a href="#" class="theme-color">
+                                            <a href="{{ route('single') }}" class="theme-color">
                                                 <i class="fa fa-link"></i>
                                             </a>
                                         </div>
@@ -523,12 +320,12 @@
                                         <div class="action-btn">
                                             <a href="http://www.youtube.com/watch?v=0O2aH4XLbto"
                                                 class="popup-video theme-color"><i class="fa fa-play"></i></a>
-                                            <a href="{{ route('single') }}" class="lightbox-gallery theme-color"
+                                            <a class="lightbox-gallery theme-color"
                                                 href="{{ URL::asset('images/exhibition3.jpeg') }}"
                                                 title="Lightbox gallery image title...">
                                                 <i class="fas fa-expand"></i>
                                             </a>
-                                            <a href="#" class="theme-color">
+                                            <a href="{{ route('single') }}" class="theme-color">
                                                 <i class="fa fa-link"></i>
                                             </a>
                                         </div>
@@ -553,12 +350,12 @@
                                         <div class="action-btn">
                                             <a href="http://www.youtube.com/watch?v=0O2aH4XLbto"
                                                 class="popup-video theme-color"><i class="fa fa-play"></i></a>
-                                            <a href="{{ route('single') }}" class="lightbox-gallery theme-color"
+                                            <a class="lightbox-gallery theme-color"
                                                 href="{{ URL::asset('images/exhibition4.jpeg') }}"
                                                 title="Lightbox gallery image title...">
                                                 <i class="fas fa-expand"></i>
                                             </a>
-                                            <a href="#" class="theme-color">
+                                            <a href="{{ route('single') }}" class="theme-color">
                                                 <i class="fa fa-link"></i>
                                             </a>
                                         </div>
@@ -583,12 +380,12 @@
                                         <div class="action-btn">
                                             <a href="http://www.youtube.com/watch?v=0O2aH4XLbto"
                                                 class="popup-video theme-color"><i class="fa fa-play"></i></a>
-                                            <a href="{{ route('single') }}" class="lightbox-gallery theme-color"
+                                            <a class="lightbox-gallery theme-color"
                                                 href="{{ URL::asset('images/hologram1.jpeg') }}"
                                                 title="Lightbox gallery image title...">
                                                 <i class="fas fa-expand"></i>
                                             </a>
-                                            <a href="#" class="theme-color">
+                                            <a href="{{ route('single') }}" class="theme-color">
                                                 <i class="fa fa-link"></i>
                                             </a>
                                         </div>
@@ -613,12 +410,12 @@
                                         <div class="action-btn">
                                             <a href="http://www.youtube.com/watch?v=0O2aH4XLbto"
                                                 class="popup-video theme-color"><i class="fa fa-play"></i></a>
-                                            <a href="{{ route('single') }}" class="lightbox-gallery theme-color"
+                                            <a class="lightbox-gallery theme-color"
                                                 href="{{ URL::asset('images/immersive2.jpeg') }}"
                                                 title="Lightbox gallery image title...">
                                                 <i class="fas fa-expand"></i>
                                             </a>
-                                            <a href="#" class="theme-color">
+                                            <a href="{{ route('single') }}" class="theme-color">
                                                 <i class="fa fa-link"></i>
                                             </a>
                                         </div>
@@ -636,7 +433,7 @@
             </div>
         </section>
 
-        <section class="section testimonial-section gray-bg">
+        {{-- <section class="section testimonial-section gray-bg">
             <div class="container">
                 <div class="row justify-content-center m-50px-b md-m-40px-b sm-m-25px-b">
                     <div class="col-12 col-md-10 col-lg-7">
@@ -693,9 +490,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
-        <section id="contact" class="section p-0px-b contact-section">
+        <section id="contact" class="section p-0px-b contact-section gray-bg">
             <div class="container">
                 <div class="row justify-content-center m-60px-b md-m-40px-b">
                     <div class="col-12 col-md-10 col-lg-7">
